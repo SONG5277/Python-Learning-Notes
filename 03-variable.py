@@ -21,6 +21,8 @@ print("总价：",total,sep="     ")
 number=666
 print("你的操作number")
 # print("你的操作"+number) 变量是一个数字类型的变量，不能够使用加号拼接输出
+
+#直接嵌入变量的输出方法
 print(f"你的操作{number}") #可以用f-string方法5
 print("你的操作",number)
 
@@ -28,4 +30,3 @@ print("你的操作",number)
 variable1,variable2=666,"苹果"#数字形式可以不用引号
 print(variable1,variable2)
 #print(variable1+variable2) 错误 v1整形，v2字符串，不同类型数据不能用+
-
