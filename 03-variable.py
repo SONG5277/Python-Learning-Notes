@@ -28,3 +28,4 @@ print("你的操作",number)
 variable1,variable2=666,"苹果"#数字形式可以不用引号
 print(variable1,variable2)
 #print(variable1+variable2) 错误 v1整形，v2字符串，不同类型数据不能用+
+
